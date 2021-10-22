@@ -27,6 +27,12 @@
 .inner-nav-item{
     margin:auto 2vh;
     font-weight: 500;
+    font-size:12px;
+    letter-spacing: 0.1rem;
+}
+
+#hide-nav{
+    font-weight: 500;
     font-size:16px;
     cursor: pointer;
     text-decoration: none;

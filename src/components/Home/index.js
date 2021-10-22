@@ -49,12 +49,14 @@ const Home = () => {
                     <a href="https://www.behance.net/anushravsinghal" target="__blank"><img src={be} alt="behance"/></a>
                     <a href="https://www.instagram.com/anushravsinghal/" target="__blank"><img src={ins} alt="instagram"/></a>
                     <a href="https://www.linkedin.com/in/anushravsinghal/" target="__blank"><img src={li} alt="linkedin"/></a>
+                
                 </div>
             </div>
             
             <div id='down' onClick={()=>scrollElem('about')}>
                 <img src={arrow} alt='arrow'/>
             </div>
+
         </div>
     )
 }
