@@ -1,0 +1,33 @@
+.nav{
+    display:flex;
+    flex-direction:row;
+    padding:3vh 8vh 0 8vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.inner-nav{
+    display:flex;
+    flex-direction: row;
+}
+.inner-nav img{
+    height:50px;
+    margin:0;
+    border-radius: 30px;
+}
+.inner-nav p{
+    margin:auto 2vh;
+    font-weight: 500;
+    font-size:16px;
+}
+@media screen and (max-width:800px) {
+    #hide-nav{
+        display:none;
+    }
+    .nav{
+        display:flex;
+        flex-direction:row;
+        padding:4vh;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
