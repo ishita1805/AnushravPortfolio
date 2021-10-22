@@ -8,21 +8,27 @@ import bw from '../assets/blackwidow.jpg'
 const illustrations = [
     {
         img:bojack,
+        title:'Bojack Horseman'
     },
     {
         img:neymar,
+        title:'Neymar'
     },
     {
         img: bw,
+        title:'Black Widow'
     },
     {
         img:st1,
+        title:'Stranger Things'
     },
     {
         img:yoda,
+        title:'Baby Yoda'
     },
     {
         img:st2,
+        title:'Stranger Things'
     }
 ]
 export default illustrations;
