@@ -1,9 +1,21 @@
 import React from 'react'
 import './style.css'
 
-const ImageCard = ({img, ...props}) => {
+const ImageCard = ({img, title, url, ...props}) => {
+
+    let cssBG = {
+        backgroundImage: `url(${img})`,
+        backgroundSize: '100%',
+    }
+
     return (
-        <img src={img} class='image-card' alt='work'/>
+        <a href={url} target="__blank">
+        <div className='img-card' style={cssBG}>
+            <div className='img-card-in'>
+                <p>{title}</p>
+            </div>
+        </div>
+        </a>
     )
 }
 

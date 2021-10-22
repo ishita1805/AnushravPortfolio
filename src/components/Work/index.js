@@ -36,6 +36,7 @@ const Work = () => {
                     nav === 'branding'?
                     branding.map((item) => (
                         <ImageCard
+                        title={item.title}
                         img={item.img}/>
                     )):null
                 }
