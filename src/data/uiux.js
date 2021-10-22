@@ -6,6 +6,7 @@ import calc from '../assets/calculator.jpg';
 import notfound from '../assets/404.jpg';
 import atishi from '../assets/atishi.jpg';
 import git from '../assets/git.jpg';
+import card from '../assets/card.jpg';
 
 const uiux = [
     {
@@ -42,7 +43,7 @@ const uiux = [
         title:'Daily UI Challenge #002',
         content:'Daily UI Credit Card Checkout Screen',
         url:'https://www.figma.com/file/kGIGUBpStlJGSiEXV9hLJ9/?node-id=14%3A2',
-        img:'',
+        img:card,
     },
     {
         title:'Daily UI Challenge #004',
