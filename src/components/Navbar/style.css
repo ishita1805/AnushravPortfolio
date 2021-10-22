@@ -29,6 +29,12 @@
     margin-right: 2vh;
     border-radius: 30px;
 }
+.inner-nav p{
+    cursor:pointer;
+    color:black;
+    font-size:15px;
+
+}
 .inner-nav-item{
     margin:auto 2vh;
     font-weight: 500;
