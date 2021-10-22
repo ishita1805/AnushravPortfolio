@@ -10,10 +10,10 @@ const Navbar = () => {
                 <p id='hide-nav'>Anushrav Singhal</p>
             </div>
             <div className='inner-nav'>
-                <p>About</p>
-                <p>Work</p>
-                <p>Contact</p>
-                <p>Resume</p>
+                <p>ABOUT</p>
+                <p>WORK</p>
+                <p>CONTACT</p>
+                <p>RESUME</p>
                 
             </div>
         </div>

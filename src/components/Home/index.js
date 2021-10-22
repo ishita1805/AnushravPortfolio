@@ -13,14 +13,15 @@ const Home = () => {
                 </h1>
                 <p id='subtitle'>Building meaningful user experiences one product at a time</p>
                 <div className='buttons'>
-                    <button id='cta'>My Work</button>
-                    <button id='cta2'>Let's Chat</button>
+                    <button id='cta'>MY WORK</button>
+                    <button id='cta2'>LET'S CHAT</button>
                 </div>
             </div>
             
             <div id='down'>
                 <img src={arrow} alt='arrow'/>
             </div>
+
         </div>
     )
 }
