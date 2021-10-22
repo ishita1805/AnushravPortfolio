@@ -38,7 +38,8 @@ const Work = () => {
                     branding.map((item) => (
                         <ImageCard
                         title={item.title}
-                        img={item.img}/>
+                        img={item.img}
+                        url={item.url}/>
                     )):null
                 }
             </div>
