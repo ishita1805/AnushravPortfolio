@@ -10,14 +10,15 @@ function App() {
     <>
       <Navbar/>
       <Switch> 
-        <Route path='/' exact>
+        <Route path='/work' exact>
+          <Work/>
+        </Route>
+        <Route path='/'>
           <Home/>
           <About/>
           <Contact/>
         </Route>
-        <Route path='/work' exact>
-          <Work/>
-        </Route>
+        
       </Switch>
     </>
   );

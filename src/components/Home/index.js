@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import './style.css'
 import arrow from '../../assets/next.png'
 import be from '../../assets/behance.png'
@@ -6,8 +6,29 @@ import db from '../../assets/dribbble.png'
 import ins from '../../assets/instagram.png'
 import li from '../../assets/linkedin.png'
 import { NavLink } from 'react-router-dom'
+import * as Scroll from 'react-scroll';
 
 const Home = () => {
+
+    var scroller = Scroll.scroller;
+
+    const scrollElem = (item) =>{
+        scroller.scrollTo(item, {
+            duration: 1500,
+            smooth: true,
+            offset: 0
+          })
+    }
+    
+    useEffect(() => {
+        let path = window.location.pathname.replace("/","");
+        scroller.scrollTo(path, {
+            duration: 1500,
+            smooth: true,
+            offset: 0
+          })
+    }, [scroller])
+
     return (
         <div className='home'>
             <div className='home-content'>
@@ -19,8 +40,8 @@ const Home = () => {
                     </h1>
                     <p id='subtitle'>Building meaningful user experiences one product at a time</p>
                     <div className='buttons'>
-                        <button id='cta'><NavLink className='button-link' to='/work'>My Work</NavLink></button>
-                        <button id='cta2'>Let's Chat</button>
+                        <NavLink className='button-link' to='/work'><button id='cta'>My Work</button></NavLink>
+                        <button id='cta2' onClick={()=>scrollElem('contact')}>Let's Chat</button>
                     </div>
                 </div>
                 <div className='icons'>
@@ -31,7 +52,7 @@ const Home = () => {
                 </div>
             </div>
             
-            <div id='down'>
+            <div id='down' onClick={()=>scrollElem('about')}>
                 <img src={arrow} alt='arrow'/>
             </div>
         </div>
