@@ -1,0 +1,10 @@
+.image-card{
+    width:35vh;
+    height: 35vh;
+    margin:2vh;
+    transition: 0.4s;
+}
+.image-card:hover{
+    height:38vh !important;
+    transition: 0.4s;
+}

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './style.css'
 import uiux, { branding, illustrations} from '../../data'
 import Card from '../projectCard'
+import ImageCard from '../imageCard'
 
 const Work = () => {
     const [nav,setNav] = useState('uiux');
@@ -27,20 +28,14 @@ const Work = () => {
                 {
                     nav === 'illustrations'?
                     illustrations.map((item) => (
-                        <Card
-                        title={item.title}
-                        content={item.content}
-                        url={item.url}
+                        <ImageCard
                         img={item.img}/>
                     )):null
                 }
                 {
                     nav === 'branding'?
                     branding.map((item) => (
-                        <Card
-                        title={item.title}
-                        content={item.content}
-                        url={item.url}
+                        <ImageCard
                         img={item.img}/>
                     )):null
                 }
