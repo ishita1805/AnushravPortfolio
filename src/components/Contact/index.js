@@ -1,10 +1,15 @@
 import React from 'react'
+import * as Scroll from 'react-scroll'
 import './style.css'
 import contact from '../../assets/contact.png'
 
 const Contact = () => {
+
+    var Element  = Scroll.Element;
+
     return (
-        <div className='contact'>
+        <Element name="contact">
+        <div id='contact' className='contact'>
             <h1>Get in touch!</h1>
             <p>
                 I'm looking for my next big project.
@@ -16,6 +21,7 @@ const Contact = () => {
             
             <img src={contact} alt='contact'/>
         </div>
+        </Element>
     )
 }
 

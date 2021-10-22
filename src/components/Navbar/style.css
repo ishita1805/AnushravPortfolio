@@ -5,6 +5,7 @@
     height:10vh;
     width:94vw;
     position:sticky;
+    z-index:100;
     top:0;
     background:rgb(255, 255, 255);
     padding:0 3vw;
@@ -14,6 +15,8 @@
 .inner-nav{
     display:flex;
     flex-direction: row;
+    text-decoration: none;
+    color:black;
 }
 .inner-nav img{
     height:50px;
@@ -25,6 +28,7 @@
     margin:auto 2vh;
     font-weight: 500;
     font-size:16px;
+    cursor: pointer;
     text-decoration: none;
     color:black;
 }
