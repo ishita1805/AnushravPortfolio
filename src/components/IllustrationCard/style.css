@@ -1,0 +1,13 @@
+.illustration-card{
+    margin:4vh; 
+    width:38vh;
+    height: 38vh;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.illustration-card:hover{
+    height:42vh !important;
+    width:42vh;
+    transition: 0.4s;
+}

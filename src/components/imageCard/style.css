@@ -1,0 +1,33 @@
+.img-card{
+    margin:4vh; 
+    width:38vh;
+    height: 38vh;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.img-card-in{
+    width:38vh;
+    height: 38vh;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.527) 85%, rgba(0,0,0,1) 100%);
+}
+.img-card-in p{
+    padding:2vh;
+    color:white;
+}
+.img-card:hover{
+    height:42vh !important;
+    width:42vh;
+    transition: 0.4s;
+}
+.img-card-in:hover{
+    height:42vh !important;
+    width:42vh;
+    transition: 0.4s;
+}
+a{
+    text-decoration: none;
+}

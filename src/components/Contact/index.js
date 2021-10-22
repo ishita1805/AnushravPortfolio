@@ -16,8 +16,8 @@ const Contact = () => {
                 <br/> 
                 If you're a company or a fellow designer, I'd love to get in touch and collaborate :)
             </p>
-            <a href="mailto:anushrav20@gmail.com">Get in touch</a>
-            <p>2021 ⓒ Anushrav Singhal</p>
+            <a href="mailto:anushrav20@gmail.com">Let's Chat</a>
+            <p id='footer'>2021 ⓒ Anushrav Singhal</p>
             
             <img src={contact} alt='contact'/>
         </div>

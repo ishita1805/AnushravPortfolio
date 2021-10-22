@@ -10,14 +10,29 @@
 .contact h1{
     color: #717CE3;
     font-size:55px;
+    margin:3vh 0;
     font-weight:300;
 }
 .contact p{
     font-size:22px;
+    margin:1vh 0;
 }
 .contact img{
     height:auto;
     width:60vh;
     position: absolute;
     align-self: flex-end;
+}
+.contact a{
+    padding:2vh;
+    color:rgb(201, 201, 201);
+    border:solid 2px rgb(201, 201, 201);
+    text-decoration: none;
+    margin:2vh 0;
+    width: fit-content;
+}
+#footer{
+    margin:3vh 0;
+    font-size:17px;
+    margin-bottom: 20vh;
 }
