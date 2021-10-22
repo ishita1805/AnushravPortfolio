@@ -17,6 +17,11 @@
     flex-direction: row;
     text-decoration: none;
     color:black;
+    font-size:16px;
+}
+.navlink{
+    color:black;
+    text-decoration: none;
 }
 .inner-nav img{
     height:50px;
@@ -36,4 +41,7 @@
     #hide-nav{
         display:none;
     }
+}
+.inner-nav a{
+    color:black;
 }

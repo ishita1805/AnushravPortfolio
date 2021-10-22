@@ -32,7 +32,7 @@ const Navbar = () => {
 
             <div className='inner-nav' >
                 <p className='inner-nav-item' onClick={()=>scrollToElem('about')}>About</p>
-                <NavLink className='inner-nav-item' to="/work"><p>Work</p></NavLink>
+                <p className='inner-nav-item'><NavLink className='navlink' to="/work">Work</NavLink></p>
                 <p className='inner-nav-item'  onClick={()=>scrollToElem('contact')}>Contact</p>
                 <a className='inner-nav-item' href="https://drive.google.com/file/d/1FwgiPDwFrlDkSPc1wR9_cxoO__6xLzLt/view?usp=sharing" target="__blank"><p>Resume</p></a>
             </div>
