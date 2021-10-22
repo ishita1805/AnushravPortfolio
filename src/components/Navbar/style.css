@@ -18,12 +18,15 @@
 .inner-nav img{
     height:50px;
     margin:0;
+    margin-right: 2vh;
     border-radius: 30px;
 }
-.inner-nav p{
+.inner-nav-item{
     margin:auto 2vh;
     font-weight: 500;
     font-size:16px;
+    text-decoration: none;
+    color:black;
 }
 @media screen and (max-width:800px) {
     #hide-nav{

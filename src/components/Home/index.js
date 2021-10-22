@@ -5,7 +5,7 @@ import be from '../../assets/behance.png'
 import db from '../../assets/dribbble.png'
 import ins from '../../assets/instagram.png'
 import li from '../../assets/linkedin.png'
-
+import { NavLink } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -19,7 +19,7 @@ const Home = () => {
                     </h1>
                     <p id='subtitle'>Building meaningful user experiences one product at a time</p>
                     <div className='buttons'>
-                        <button id='cta'>My Work</button>
+                        <button id='cta'><NavLink className='button-link' to='/work'>My Work</NavLink></button>
                         <button id='cta2'>Let's Chat</button>
                     </div>
                 </div>
