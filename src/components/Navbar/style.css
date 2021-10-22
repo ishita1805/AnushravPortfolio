@@ -23,11 +23,4 @@
     #hide-nav{
         display:none;
     }
-    .nav{
-        display:flex;
-        flex-direction:row;
-        padding:4vh;
-        align-items: center;
-        justify-content: space-between;
-    }
 }
