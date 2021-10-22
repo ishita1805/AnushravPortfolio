@@ -82,8 +82,9 @@ button{
     height:50px;
     width:50px;
     border-radius:30px;
-    background:#717CE3;
     cursor:pointer;
+    background:#000000;
+    opacity: 0.8;
     margin-bottom: 4vh;
 }
 #down img{
