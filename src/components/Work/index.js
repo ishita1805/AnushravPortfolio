@@ -3,6 +3,7 @@ import './style.css'
 import uiux, { branding, illustrations} from '../../data'
 import Card from '../projectCard'
 import ImageCard from '../imageCard'
+import Illustration from '../IllustrationCard'
 
 const Work = () => {
     const [nav,setNav] = useState('uiux');
@@ -28,7 +29,7 @@ const Work = () => {
                 {
                     nav === 'illustrations'?
                     illustrations.map((item) => (
-                        <ImageCard
+                        <Illustration
                         img={item.img}/>
                     )):null
                 }
