@@ -1,0 +1,46 @@
+.card{
+    margin:4vh;
+    height:49vh !important;
+    width:39vh;
+    color:white;
+    cursor:pointer;
+    transition: 0.6s;
+}
+.card-inner{
+    height:45vh;
+    width:35vh;
+    display:flex;
+    padding:2vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: 0.6s;
+    background: linear-gradient(-180deg, rgba(0,0,0,0.02874653279280459) 0%, rgba(0,0,0,0.88) 65%, rgba(0,0,0,1) 100%);
+}
+.card:hover{
+    height:55vh !important;
+    transition: 0.6s;
+}
+.card-inner:hover{
+    height:51vh !important;
+    transition: 0.6s;
+}
+
+.card h2{
+    font-weight:300;
+    margin:0;
+}
+.card p{
+    font-weight:300;
+    color:grey;
+    margin:1vh 0;
+    font-size:15px;
+}
+.card a{
+    text-decoration: none;
+    padding:1vh 2vh;
+    margin:1vh 0;
+    border:solid 1.5px white;
+    width:fit-content;
+    color: white;
+    background: rgba(255, 255, 255, 0.116);
+}

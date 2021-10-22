@@ -1,0 +1,30 @@
+.work{
+    min-height:100vh;
+}
+.nav-work{
+    margin-top:6vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:4vh;
+}
+.nav-work p{
+    margin:0 2vh;
+    font-weight:400;
+    font-size:18px;
+    cursor:pointer;
+    border-bottom: solid 2px white;
+}
+.nav-selected{
+    color: #717CE3;
+    font-weight:500 !important;
+    border-bottom: solid 2px #717CE3 !important;
+}
+.work-grid{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+    padding:4vh 5vw;
+}
