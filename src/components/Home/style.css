@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    height:90vh;
     align-items: center;
+    height:90vh;
+    margin:0;
     justify-content: center;
 }
 .home-content{
@@ -18,12 +19,13 @@
     display:flex;
     flex-direction: column;
     flex-grow: 1;
-    margin-left:16vh;
+    margin-left:3vw;
     align-items: center;
+    padding-left: 6vh;
     justify-content: center;
 }
 .home h1{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 200;
     font-size:65px;
     text-align: center;
     margin:0;
@@ -31,10 +33,12 @@
 .icons{
     display:flex;
     flex-direction:column;
-    margin-right:10vh;
+    padding-right: 2vh;
+    margin-right:3vw;
 }
 .icons img{
     height:4vh;
+    width:4vh;
     margin:2vh 0;
 }
 #purple{
@@ -113,6 +117,7 @@ button{
         flex-direction: column;
         flex-grow: 1;
         margin-left:0;
+        padding-left: 0;
         margin-top:8vh;
         align-items: center;
         justify-content: center;
@@ -125,6 +130,7 @@ button{
     }
     .icons img{
         height:25px;
+        width:auto;
         margin:0 2vh;
     }
 }

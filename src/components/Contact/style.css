@@ -1,0 +1,23 @@
+.contact{
+    background:black;
+    height:100vh;
+    padding:0 3vw;
+    display:flex;
+    color:grey;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.contact h1{
+    color: #717CE3;
+    font-size:55px;
+    font-weight:300;
+}
+.contact p{
+    font-size:22px;
+}
+.contact img{
+    height:auto;
+    width:60vh;
+    position: absolute;
+    align-self: flex-end;
+}

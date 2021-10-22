@@ -1,7 +1,13 @@
 .nav{
     display:flex;
     flex-direction:row;
-    padding:3vh 8vh 0 8vh;
+    max-height:10vh;
+    height:10vh;
+    width:94vw;
+    position:sticky;
+    top:0;
+    background:rgb(255, 255, 255);
+    padding:0 3vw;
     align-items: center;
     justify-content: space-between;
 }

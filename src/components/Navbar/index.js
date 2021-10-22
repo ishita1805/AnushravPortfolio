@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import icon from '../../assets/anush.jpeg'
+import icon from '../../assets/anush.jfif'
 
 const Navbar = () => {
     return (
