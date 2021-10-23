@@ -9,6 +9,7 @@ const Card = ({title,url,content,img,...props}) => {
     }
     
     return (
+        <a href={url} target="__blank">
         <div className='card' style={bgCss}>
             <div className='card-inner'>
             <h2>{title}</h2>
@@ -18,6 +19,7 @@ const Card = ({title,url,content,img,...props}) => {
             <a href={url} target="__blank">View Project</a>
             </div>
         </div>
+        </a>
     )
 }
 

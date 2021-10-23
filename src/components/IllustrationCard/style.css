@@ -6,8 +6,9 @@
     cursor: pointer;
 }
 
-/* .illustration-card:hover{
+.illustration-card:hover{
     height:42vh !important;
     width:42vh;
+    margin:2vh; 
     transition: 0.4s;
-} */
+}

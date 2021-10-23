@@ -18,16 +18,17 @@
     padding:2vh;
     color:white;
 }
-/* .img-card:hover{
+.img-card:hover{
     height:42vh !important;
     width:42vh;
+    margin:2vh; 
     transition: 0.4s;
 }
 .img-card-in:hover{
     height:42vh !important;
     width:42vh;
     transition: 0.4s;
-} */
+}
 a{
     text-decoration: none;
 }
