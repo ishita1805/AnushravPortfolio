@@ -1,10 +1,10 @@
 import React,{ useEffect } from 'react'
 import './style.css'
-import arrow from '../../assets/next.png'
-import be from '../../assets/behance.png'
-import db from '../../assets/dribbble.png'
-import ins from '../../assets/instagram.png'
-import li from '../../assets/linkedin.png'
+import arrow from '../../assets/next.webp'
+import be from '../../assets/behance.webp'
+import db from '../../assets/dribbble.webp'
+import ins from '../../assets/instagram.webp'
+import li from '../../assets/linkedin.webp'
 import { NavLink } from 'react-router-dom'
 import * as Scroll from 'react-scroll';
 
@@ -22,6 +22,7 @@ const Home = () => {
     
     useEffect(() => {
         let path = window.location.pathname.replace("/","");
+        if(path === '') window.scrollTo(0,0);
         scroller.scrollTo(path, {
             duration: 1500,
             smooth: true,
@@ -49,12 +50,14 @@ const Home = () => {
                     <a href="https://www.behance.net/anushravsinghal" target="__blank"><img src={be} alt="behance"/></a>
                     <a href="https://www.instagram.com/anushravsinghal/" target="__blank"><img src={ins} alt="instagram"/></a>
                     <a href="https://www.linkedin.com/in/anushravsinghal/" target="__blank"><img src={li} alt="linkedin"/></a>
+                
                 </div>
             </div>
             
             <div id='down' onClick={()=>scrollElem('about')}>
                 <img src={arrow} alt='arrow'/>
             </div>
+
         </div>
     )
 }

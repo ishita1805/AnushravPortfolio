@@ -29,6 +29,7 @@
     font-size:65px;
     text-align: center;
     margin:0;
+    line-height: 110%;
 }
 .icons{
     display:flex;
@@ -66,19 +67,25 @@ button{
     color:white;
 }
 #cta{
+
     background:black;
     text-decoration: none;
+
     color:white;
-    font-weight:500;
-    border:solid 2px black;
-    font-size:17px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:300;
+    letter-spacing: 0.1rem;
+    border:solid 2px #222222;
+    font-size:14px;
 }
 #cta2{
-    color:black;
+    color:#222222;
     background:white;
-    font-weight:500;
-    font-size:17px;
-    border:solid 2px black;
+    font-family: 'Nunito', sans-serif;
+    font-weight:700;
+    letter-spacing: 0.1rem;
+    font-size:14px;
+    border:solid 2px #222222;
 }
 #down{
     display: flex;
@@ -87,8 +94,10 @@ button{
     height:50px;
     width:50px;
     border-radius:30px;
+
     cursor:pointer;
     background:#000000;
+
     opacity: 0.8;
     margin-bottom: 4vh;
 }
@@ -106,6 +115,7 @@ button{
     }
     .icons img{
         height:3vh;
+        width:3vh;
         margin:1vh 0;
     }
 }
@@ -136,16 +146,30 @@ button{
     }
     .icons img{
         height:25px;
-        width:auto;
+        width:25px;
         margin:0 2vh;
     }
-}
-@media screen and (max-width:500px){
     .home h1{
-        font-size:45px;
+        font-size:50px;
+    }
+}
+@media screen and (max-width:700px){
+    .home h1{
+        font-size:40px;
     }
     #subtitle{
         font-size:18px;
         margin:2vh 4vh;
+    }
+    #down{
+        height:40px;
+        width:40px;
+        margin-bottom: 8vh;
+    }
+    #down img{
+        height:20px;
+    }
+    .home{
+        margin-top:10vh;
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import * as Scroll from 'react-scroll'
 import './style.css'
-import icons from '../../assets/icons.png'
+import icons from '../../assets/icons.webp'
 
 const About = () => {
 

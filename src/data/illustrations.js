@@ -1,9 +1,9 @@
-import bojack from '../assets/bojack.jpg'
-import st1 from '../assets/st1.jpg'
-import st2 from '../assets/st2.jpg'
-import neymar from '../assets/neymar.jpg'
-import yoda from '../assets/yoda.png'
-import bw from '../assets/blackwidow.jpg'
+import bojack from '../assets/bojack.webp'
+import st1 from '../assets/st1.webp'
+import st2 from '../assets/st2.webp'
+import neymar from '../assets/neymar.webp'
+import yoda from '../assets/yoda.webp'
+import bw from '../assets/blackwidow.webp'
 
 const illustrations = [
     {
