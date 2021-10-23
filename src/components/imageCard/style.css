@@ -18,7 +18,7 @@
     padding:2vh;
     color:white;
 }
-.img-card:hover{
+/* .img-card:hover{
     height:42vh !important;
     width:42vh;
     transition: 0.4s;
@@ -27,7 +27,7 @@
     height:42vh !important;
     width:42vh;
     transition: 0.4s;
-}
+} */
 a{
     text-decoration: none;
 }

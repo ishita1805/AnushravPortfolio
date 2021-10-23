@@ -115,6 +115,7 @@ button{
     }
     .icons img{
         height:3vh;
+        width:3vh;
         margin:1vh 0;
     }
 }
@@ -145,7 +146,7 @@ button{
     }
     .icons img{
         height:25px;
-        width:auto;
+        width:25px;
         margin:0 2vh;
     }
     .home h1{
@@ -167,5 +168,8 @@ button{
     }
     #down img{
         height:20px;
+    }
+    .home{
+        margin-top:10vh;
     }
 }
