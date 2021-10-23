@@ -20,8 +20,9 @@
     flex-direction: column;
     flex-grow: 1;
     margin-left:3vw;
+    margin-top:5vh;
     align-items: center;
-    padding-left: 6vh;
+    padding-left: 7vh;
     justify-content: center;
 }
 .home h1{
@@ -35,6 +36,7 @@
     display:flex;
     flex-direction:column;
     padding-right: 2vh;
+    margin-bottom:3vh;
     margin-right:3vw;
 }
 .icons img{

@@ -1,10 +1,7 @@
 import React,{ useEffect } from 'react'
 import './style.css'
 import arrow from '../../assets/next.webp'
-import be from '../../assets/behance.webp'
-import db from '../../assets/dribbble.webp'
-import ins from '../../assets/instagram.webp'
-import li from '../../assets/linkedin.webp'
+import { content } from '../../data'
 import { NavLink } from 'react-router-dom'
 import * as Scroll from 'react-scroll';
 
@@ -35,21 +32,27 @@ const Home = () => {
             <div className='home-content'>
                 <div className='home-center'>
                     <h1>
-                        I’m a <span id='purple'>UX/UI</span> 
+                        {content.home.title.item1}
+                         <span id='purple'>{content.home.title.item2}</span> 
                         <br/>
-                        & <span id='purple'>Product</span> Designer
+                        {content.home.title.item3}
+                        <span id='purple'>{content.home.title.item4}</span>
+                        {content.home.title.item5}
                     </h1>
-                    <p id='subtitle'>Building meaningful user experiences one product at a time</p>
+                    <p id='subtitle'>{content.home.subtitle}</p>
                     <div className='buttons'>
-                        <NavLink className='button-link' to='/work'><button id='cta'>My Work</button></NavLink>
-                        <button id='cta2' onClick={()=>scrollElem('contact')}>Let's Chat</button>
+                        <NavLink className='button-link' to={content.home.cta1.link}><button id='cta'>{content.home.cta1.label}</button></NavLink>
+                        <button id='cta2' onClick={()=>scrollElem(content.home.cta2.link)}>{content.home.cta2.label}</button>
                     </div>
                 </div>
                 <div className='icons'>
-                    <a href="https://dribbble.com/AnushravSinghal" target="__blank"><img src={db} alt="dribbble"/></a>
-                    <a href="https://www.behance.net/anushravsinghal" target="__blank"><img src={be} alt="behance"/></a>
-                    <a href="https://www.instagram.com/anushravsinghal/" target="__blank"><img src={ins} alt="instagram"/></a>
-                    <a href="https://www.linkedin.com/in/anushravsinghal/" target="__blank"><img src={li} alt="linkedin"/></a>
+                    {
+                        content.home.icons.map((item) => (
+                            <a href={item.url} target="__blank"><img src={item.icon} alt="dribbble"/></a>
+                        ))
+                    }
+                    
+                    
                 
                 </div>
             </div>

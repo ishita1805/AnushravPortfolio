@@ -44,3 +44,6 @@
     color: white;
     background: rgba(255, 255, 255, 0.116);
 }
+.card a:hover{
+    background: rgba(255, 255, 255, 0.295);
+}
