@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './style.css'
 import uiux, { branding, illustrations} from '../../data'
 import Card from '../projectCard'
@@ -7,6 +7,10 @@ import Illustration from '../IllustrationCard'
 
 const Work = () => {
     const [nav,setNav] = useState('uiux');
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [])
     
     return (
         <div className='work'>

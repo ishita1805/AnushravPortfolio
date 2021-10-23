@@ -1,7 +1,7 @@
 import React from 'react'
 import * as Scroll from 'react-scroll'
 import './style.css'
-import contact from '../../assets/contact.png'
+import contact from '../../assets/contact.webp'
 
 const Contact = () => {
 
@@ -17,7 +17,7 @@ const Contact = () => {
                 If you're a company or a fellow designer, I'd love to get in touch and collaborate :)
             </p>
             <a href="mailto:anushrav20@gmail.com">Let's Chat</a>
-            <p id='footer'>2021 ⓒ Anushrav Singhal</p>
+            <p id='footer'>Made By Anushrav Singhal</p>
             
             <img src={contact} alt='contact'/>
         </div>

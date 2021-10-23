@@ -1,12 +1,12 @@
-import oshiki from '../assets/oshiki.jpg';
-import doc from '../assets/docconnect.jpg';
-import tattoo from '../assets/tattoo.jpg';
-import music from '../assets/musicplayer.jpg';
-import calc from '../assets/calculator.jpg';
-import notfound from '../assets/404.jpg';
-import atishi from '../assets/atishi.jpg';
-import git from '../assets/git.jpg';
-import card from '../assets/card.jpg';
+import oshiki from '../assets/oshiki.webp';
+import doc from '../assets/docconnect.webp';
+import tattoo from '../assets/tattoo.webp';
+import music from '../assets/musicplayer.webp';
+import calc from '../assets/calculator.webp';
+import notfound from '../assets/404.webp';
+import atishi from '../assets/atishi.webp';
+import git from '../assets/git.webp';
+import card from '../assets/card.webp';
 
 const uiux = [
     {

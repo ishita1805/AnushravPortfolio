@@ -1,8 +1,8 @@
-import wizz from '../assets/wizz.jpg'
-import sass from '../assets/sasskart.jpg'
-import pm from '../assets/pm.jpg'
-import cfour from '../assets/c4.jpg'
-import ted from '../assets/ted.jpg'
+import wizz from '../assets/wizz.webp'
+import sass from '../assets/sasskart.webp'
+import pm from '../assets/pm.webp'
+import cfour from '../assets/c4.webp'
+import ted from '../assets/ted.webp'
 
 const branding = [
     {
