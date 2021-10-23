@@ -69,8 +69,10 @@ const Navbar = () => {
         
             <div className='dropdown'>
                 <img class='close-dpd' src={close} alt='close' onClick={()=>setMenu(()=>!menu)}/>
-                <img src={icon} className='small-nav-dp' alt='profile' />
-                <h3>Anushrav Singhal</h3>
+                <div className='small-img-cont' onClick={()=>scrollToElem('home')}>
+                    <img src={icon} className='small-nav-dp' alt='profile' />
+                    <h3>Anushrav Singhal</h3>
+                </div>
                 <p className='small-nav-item' onClick={()=>scrollToElem('about')}>About</p>
                 <p className='small-nav-item'><NavLink className='navlink' to="/work">Work</NavLink></p>
                 <a className='small-nav-item' href="https://anushravsinghal.medium.com/" target="__blank"><p>Blogs</p></a>

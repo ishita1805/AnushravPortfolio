@@ -9,6 +9,8 @@ const Home = (props) => {
 
     var scroller = Scroll.scroller;
 
+    var Element  = Scroll.Element;
+
     const scrollElem = (item) =>{
         scroller.scrollTo(item, {
             duration: 1500,
@@ -23,11 +25,12 @@ const Home = (props) => {
         scroller.scrollTo(path, {
             duration: 1500,
             smooth: true,
-            offset: 0
+            offset: -50
           })
     }, [scroller])
 
     return (
+        <Element name="home">
         <div className='home'>
             <div className='home-content'>
                 <div className='home-center'>
@@ -62,6 +65,7 @@ const Home = (props) => {
             </div>
 
         </div>
+        </Element>
     )
 }
 
