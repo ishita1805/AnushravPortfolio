@@ -29,6 +29,7 @@ const Navbar = () => {
             offset: 0
         })
     }
+    
 
     if(!menu) return (
         <div className='nav'>

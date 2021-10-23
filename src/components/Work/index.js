@@ -4,8 +4,9 @@ import uiux, { branding, illustrations} from '../../data'
 import Card from '../projectCard'
 import ImageCard from '../imageCard'
 import Illustration from '../IllustrationCard'
+import Navbar from '../Navbar'
 
-const Work = () => {
+const Work = (props) => {
     const [nav,setNav] = useState('uiux');
 
     useEffect(() => {
@@ -13,6 +14,8 @@ const Work = () => {
     }, [])
     
     return (
+        <>
+        <Navbar/>
         <div className='work'>
             <div className='nav-work'>
                 <p onClick={()=>setNav(()=>'uiux')} className={nav==='uiux'?'nav-selected':null}>UI/UX</p>
@@ -48,6 +51,7 @@ const Work = () => {
                 }
             </div>
         </div>
+        </>
     )
 }
 

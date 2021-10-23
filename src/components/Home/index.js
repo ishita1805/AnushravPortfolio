@@ -5,7 +5,7 @@ import { content } from '../../data'
 import { NavLink } from 'react-router-dom'
 import * as Scroll from 'react-scroll';
 
-const Home = () => {
+const Home = (props) => {
 
     var scroller = Scroll.scroller;
 

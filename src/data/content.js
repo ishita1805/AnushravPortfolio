@@ -45,8 +45,9 @@ const data = {
     "about":{
         "title":"About Me",
         "content":`I am Anushrav, a final-year undergrad at VIT University,
-                    Vellore. I'm have been entrusted with the position of VP 
-                    Design at C4Projects (a tech solutions start-up) for 2 years now. 
+                    Vellore. I was entrusted with the position of VP Design at C4 Projects 
+                    (a revolutionary EdTech start-up) and have been leading the graphic design 
+                    there for 2 years now.
                     I have worked as a design intern for Humourbaba, an e-commerce 
                     platform based in Vellore. I have a fresh take on design concepts 
                     and can deliver good quality content within deadlines.`,
