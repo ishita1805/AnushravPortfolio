@@ -36,7 +36,6 @@ const Navbar = () => {
             <NavLink className='inner-nav' to='/'>
                 <img src={icon} className='nav-dp' alt='profile' />
                 <p id='hide-nav'>Anushrav Singhal</p>
-
             </NavLink>
 
             <div className='inner-nav' >
@@ -52,6 +51,21 @@ const Navbar = () => {
         </div>
         )
         else return (
+            <>
+            <div className='nav'>
+                <NavLink className='inner-nav' to='/'>
+                    <img src={icon} className='nav-dp' alt='profile' />
+                    <p id='hide-nav'>Anushrav Singhal</p>
+                </NavLink>
+                <div className='inner-nav'>
+                    <p className='inner-nav-item' onClick={()=>scrollToElem('about')}>About</p>
+                    <p className='inner-nav-item'><NavLink className='navlink' to="/work">Work</NavLink></p>
+                    <a className='inner-nav-item' href="https://anushravsinghal.medium.com/" target="__blank"><p>Blogs</p></a>
+                    <p className='inner-nav-item'  onClick={()=>scrollToElem('contact')}>Contact</p>
+                    <a className='inner-nav-item' href="https://drive.google.com/file/d/1FwgiPDwFrlDkSPc1wR9_cxoO__6xLzLt/view?usp=sharing" target="__blank"><p>Resume</p></a>
+                </div>
+            </div>
+        
             <div className='dropdown'>
                 <img class='close-dpd' src={close} alt='close' onClick={()=>setMenu(()=>!menu)}/>
                 <img src={icon} className='small-nav-dp' alt='profile' />
@@ -70,6 +84,7 @@ const Navbar = () => {
                 </div>
                 <p className='small-footer'>Made By Anushrav Singhal</p>
             </div>
+            </>
         )
 }
 
